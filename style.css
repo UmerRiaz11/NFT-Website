@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg-img.png');
+    z-index: 1;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-icon {
+    margin-top: 15px;
+}
+
+.nav-button {
+    margin-top: 15px;
+}
+
+.nav-elements {
+    display: flex;
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.nav-elements li {
+    margin: 0 35px;
+    list-style: none;
+
+}
+
+.nav-icon>img {
+    margin: 0 20px;
+    height: 20px;
+}
+
+.main-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-heading {
+    width: 600px;
+    height:300px;
+    z-index: 20;
+    
+}
